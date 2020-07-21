@@ -1,140 +1,140 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-    background: url("pattern.jpg");
+  background: url("pattern.jpg");
 }
 
 /* MENU RATA KANAN */
 #logo {
-    /* border: 2px solid rgb(51, 37, 37); */
-    height: 50px;
+  /* border: 2px solid rgb(51, 37, 37); */
+  height: 50px;
 }
 
 header {
-    background-color: white;
-    height: 45px;
+  background-color: white;
+  height: 45px;
 }
 
 nav ul {
-    float: right;
-    list-style: none;
+  float: right;
+  list-style: none;
 }
 
 nav ul li {
-    float: left;
-    list-style: none;
+  float: left;
+  list-style: none;
 }
 
 nav ul a li {
-    display: block;
-    position: relative;
-    bottom: 35px;
-    margin-right: 30px;
-    list-style: none;
-    font-weight: bold;
+  display: block;
+  position: relative;
+  bottom: 35px;
+  margin-right: 30px;
+  list-style: none;
+  font-weight: bold;
 }
 
 /* section */
 section {
-    width: 65%;
-    padding-top: 10px;
-    background-color: white;
-    margin: auto;
-    top: 10px;
-    position: relative;
+  width: 65%;
+  padding-top: 10px;
+  background-color: white;
+  margin: auto;
+  top: 10px;
+  position: relative;
 }
 
 section h1 {
-    text-align: center;
-    padding-top: 7px;
+  text-align: center;
+  padding-top: 7px;
 }
 
 section #article-list {
-    padding: 10px;
-    margin-bottom: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 section #article-list div {
-    text-align: justify;
-    line-height: 1.5;
+  text-align: justify;
+  line-height: 1.5;
+  border-bottom: 2px solid black;
+  margin-top: 2px;
 }
 
 /* menghapus float */
 header::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Style Footer */
 footer {
-    background-color: black;
-    padding: 10px;
-    text-align: center;
-    line-height: 10px;
-    color: white;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  line-height: 10px;
+  color: white;
 }
 
 /* style halaman about */
 
 .container {
-    width: 900px;
-    height: 400px;
-    border-style: ridge;
-    border-width: 5px;
-    border-right-style: solid;
-    background-color: white;
-    margin: auto;
-    position: relative;
-    top: 70px;
+  width: 900px;
+  height: 400px;
+  border-style: ridge;
+  border-width: 5px;
+  border-right-style: solid;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  top: 70px;
 }
 
 .container h1 {
-    padding-top: 30px;
-    text-align: center;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .container ol {
-    padding: 50px;
+  padding: 50px;
 }
 
 .container li span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .container label {
-
-    padding-right: 20px;
+  padding-right: 20px;
 }
-
 
 /* Style contact */
 
 .container-contact {
-    width: 900px;
-    height: 550px;
-    border-style: ridge;
-    border-width: 5px;
-    border-right-style: solid;
-    background-color: white;
-    margin: auto;
-    position: relative;
-    top: 70px;
-    padding-left: 30px;
+  width: 900px;
+  height: 550px;
+  border-style: ridge;
+  border-width: 5px;
+  border-right-style: solid;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  padding-left: 30px;
 }
 
 .container-contact h1 {
-    padding-top: 30px;
-    text-align: center;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .container-contact #identitas {
-    padding: 50px;
+  padding: 50px;
 }
 
 .container-contact span {
-    font-weight: bold;
+  font-weight: bold;
 }
